@@ -4,12 +4,6 @@ import random
 import numpy
 import pyaudio
 
-import pygame
-import pygame_widgets
-from pygame_widgets.slider import Slider
-
-from oscillators import Oscillator, WhiteNoiseOscillator, lowpass_filter
-pygame.init()
 
 # Static variables
 SAMPLE_RATE = 44100
